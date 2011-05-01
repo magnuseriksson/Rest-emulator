@@ -1,5 +1,7 @@
-Rest-Emulator is a project written in the PlayFramework
-Its a way to emulate a rest-service backend during development and integration-testing.
+Rest-Emulator
+is a simple project written in the PlayFramework to emulate a Rest-based backend
+
+Its makes it possible to emulate and control the backend during development and integration-testing.
 By having control over the test-data in the backend you can develop faster since u dont have to worry about test-data changing.
 You can stretch it even further and have the emulator returning error codes for specific scenarios. This make it very powerful.
 
@@ -9,4 +11,5 @@ You add new services by adding a urlpattering in conf/routes, then add a control
 
 then youre ready to go..
 
-Since Play compiles to code no restart is necessary 
+Since Play compiles to code no restart is necessary
+Read more about playframework http://www.playframework.org/
